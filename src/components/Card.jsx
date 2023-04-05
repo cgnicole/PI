@@ -12,8 +12,8 @@ export default function Card({
 }) {
   return (
     <div className="card">
-      <button className="closeButton" onClick={onClose}>
-        X
+      <button className="closeButton" onClick={() => onClose(id)}>
+        Delate
       </button>
       <h2>{name}</h2>
       <h2>{status}</h2>
