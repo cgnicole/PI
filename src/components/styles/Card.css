@@ -1,22 +1,27 @@
 .card {
-  border: 5px solid rgba(255, 46, 192, 0.801);
-  width: 22%;
-  font-size: 10px;
-  border-radius: 10px;
-  background-color: rgb(87, 87, 233);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #dff251ee;
+  border-radius: 2em;
+  height: 500px;
+  margin: 1em;
+  overflow: hidden;
+  width: 320px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: #38c0de;
+  transition: transform 1s;
+  transition: background-color 2s;
 }
 
 img {
-  border-radius: 70px;
-
   width: 100%;
 }
 
 .closeButton {
   border: 0px;
   padding: 3px;
-  background-color: #e9ace1;
+  background-color: transparent;
   width: fit-content;
   height: fit-content;
   border-radius: 10px;
@@ -26,14 +31,40 @@ img {
   display: block;
   font-size: 20px;
   margin-top: 6px;
+  font-weight: bold;
+  font-family: Courier;
 }
 
-.closeButton:hover {
-  background: #df6d6d;
-  background-image: -webkit-linear-gradient(top, #df6d6d, #df6d6d);
-  background-image: -moz-linear-gradient(top, #df6d6d, #df6d6d);
-  background-image: -ms-linear-gradient(top, #df6d6d, #df6d6d);
-  background-image: -o-linear-gradient(top, #df6d6d, #df6d6d);
-  background-image: linear-gradient(to bottom, #df6d6d, #df6d6d);
+.stylename {
+  padding: 3px;
   text-decoration: none;
+  font-size: 25px;
+  color: #142a05;
+  font-family: "Cafe Francoise";
+  margin: 0em;
+}
+
+.stylename:hover {
+  transform: scale(1.1);
+
+  transition: transform 1s;
+  transition: color 2s;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,
+    0 0 92px #0fa;
+  cursor: cell;
+}
+.h2gender {
+  font-family: Courier;
+  font-weight: 600;
+}
+
+.containerinfoandimg {
+  display: flex;
+}
+
+.fav {
+  border: 0px;
+  background-color: transparent;
+  margin: 0 auto;
+  font-size: 20px;
 }

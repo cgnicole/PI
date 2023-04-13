@@ -3,12 +3,6 @@
   border-radius: 0%;
   padding: 2em;
   margin-bottom: 1em;
-  background-image: url("https://i.pinimg.com/originals/e0/96/a0/e096a00fb0a55cf0f8bc0ef69db0b59b.gif");
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
 }
 
 .App-logo {

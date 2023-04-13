@@ -11,10 +11,10 @@ export default function Cards({ characters, onClose }) {
               Key={index}
               id={element.id}
               name={element.name}
-              status={element.status}
+              // status={element.status}
               species={element.species}
-              gender={element.gender}
-              origin={element.origin.name}
+              // gender={element.gender}
+              // origin={element.origin.name}
               image={element.image}
               onClose={onClose}
             ></Card>
@@ -23,3 +23,18 @@ export default function Cards({ characters, onClose }) {
     </div>
   );
 }
+// {
+//   favorites.map(({ id, name, status, species, gender, image }) => {
+//     return (
+//       <Card
+//         key={id}
+//         id={id}
+//         name={name}
+//         status={status}
+//         species={species}
+//         gender={gender}
+//         image={image}
+//       />
+//     );
+//   });
+// }
